@@ -49,6 +49,7 @@ def viewSolution(request,id):
 		print created_user_id
 		store = solutionStore(solution,created_user_id,id)
 	return render_to_response('view_issue.html',{'store':store})	
+#Test process on git
 
 
 	
